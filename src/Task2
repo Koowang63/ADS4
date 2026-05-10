@@ -1,0 +1,27 @@
+Breadth First Search:
+Level 1: A
+Level 2: B C D
+Level 3: E G
+Level 4: F
+
+BFS Trace:
+Queue: A
+Visit A → add B C D
+
+Queue: B C D
+Visit B → add E G
+
+Queue: C D E G
+Visit C → nothing new
+
+Queue: D E G
+Visit D → nothing new
+
+Queue: E G
+Visit E → add F
+
+Queue: G F
+Visit G → nothing new
+
+Queue: F
+Visit F → done

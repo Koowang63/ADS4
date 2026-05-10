@@ -1,0 +1,15 @@
+Edges:
+Edinburgh–Perth = 100
+Perth–Dundee = 60
+Stirling–Perth = 40
+Glasgow–Stirling = 50
+Glasgow–Edinburgh = 70
+Stirling–Edinburgh = 50
+
+Possible paths:
+Edinburgh → Perth → Dundee = 100+ 60 = 160
+
+Edinburgh → Stirling → Perth → Dundee = 50+ 40 +60 = 150
+
+Shortest path = 150
+Route: Edinburgh → Stirling → Perth → Dundee

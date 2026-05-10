@@ -1,0 +1,21 @@
+Graph:
+A: B C D
+B: A C E G
+C: A B D
+D: C A
+E: G F B
+F: G E
+G: F B
+
+DFS Trace:
+Start at A
+A → B
+B → C
+C → D
+D → (backtrack)
+C → (already done)
+B → E
+E → G
+G → F
+F → (backtrack)
+
